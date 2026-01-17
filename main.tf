@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"   # Change to your preferred region
+  region = "ap-south-1"   # Change to your preferred region
 }
 
 resource "aws_s3_bucket" "example" {
